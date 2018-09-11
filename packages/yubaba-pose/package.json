@@ -1,11 +1,11 @@
 {
-  "name": "yubaba",
-  "version": "1.1.2",
+  "name": "yubaba-pose",
+  "version": "0.0.0",
   "repository": "madou/yubaba",
   "author": "Michael Dougall",
   "license": "MIT",
-  "main": "dist/cjs/packages/yubaba/src/index.js",
-  "module": "dist/es6/packages/yubaba/src/index.js",
+  "main": "dist/cjs/packages/yubaba-pose/src/index.js",
+  "module": "dist/es6/packages/yubaba-pose/src/index.js",
   "scripts": {
     "build": "rm -rf dist && tsc -p ./tsconfig.cjs.json && tsc -p ./tsconfig.es6.json && cp ../../README.md README.md"
   },
@@ -14,10 +14,6 @@
     "react-dom": "^16.4.x"
   },
   "devDependencies": {
-    "@material-ui/core": "^3.0.2",
-    "@material-ui/icons": "^3.0.1",
-    "material-ui": "^0.20.2",
-    "polished": "^2.0.3",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "styled-components": "^3.4.5"
