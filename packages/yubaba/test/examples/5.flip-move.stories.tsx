@@ -66,7 +66,7 @@ const FillSpace = styled.div`
   width: 100%;
 `;
 
-storiesOf('Animations/FLIPMove', module)
+storiesOf('yubaba/Animations/FLIPMove', module)
   .add('square to square', () => (
     <Toggler>
       {({ shown, toggle }) => (

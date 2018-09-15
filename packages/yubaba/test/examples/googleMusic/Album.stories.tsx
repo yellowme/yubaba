@@ -9,7 +9,7 @@ const BigContainer = styled.div`
   height: 532px;
 `;
 
-storiesOf('Examples/GoogleMusic/Components/Album', module)
+storiesOf('yubaba/Examples/GoogleMusic/Components/Album', module)
   .add('small', () => <Album {...data[0]} baba="" emphasis={false} />)
   .add('large', () => (
     <BigContainer>

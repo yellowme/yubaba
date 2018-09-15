@@ -8,6 +8,7 @@
     "tdd": "jest --watch",
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
+    "postinstall": "yarn build && lerna link",
     "lint": "tslint --project ./ --format stylish",
     "test": "jest",
     "pre-cut-version": "yarn test",

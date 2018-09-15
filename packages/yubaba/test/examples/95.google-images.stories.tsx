@@ -317,7 +317,7 @@ const ImagePage: React.StatelessComponent<ImageProps> = ({ src, title, onClick }
   </BabaManager>
 );
 
-storiesOf('Examples/ImageSearch', module).add('flip move', () => (
+storiesOf('yubaba/Examples/ImageSearch', module).add('flip move', () => (
   <Toggler>
     {({ toggle, shown }) => (
       <Container>

@@ -64,7 +64,7 @@ const FillSpace = styled.img`
   width: 100%;
 `;
 
-storiesOf('Animations/CrossFadeMove', module)
+storiesOf('yubaba/Animations/CrossFadeMove', module)
   .add('square to square', () => (
     <Toggler>
       {({ shown, toggle }) => (

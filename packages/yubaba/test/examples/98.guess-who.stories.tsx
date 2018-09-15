@@ -35,7 +35,7 @@ const NoMarginBody = styled(BodyClassName)`
   background-color: #db6f59;
 `;
 
-storiesOf('Examples/GuessWho', module)
+storiesOf('yubaba/Examples/GuessWho', module)
   .add('move', () => (
     <Toggler>
       {({ shown, toggle }) => (

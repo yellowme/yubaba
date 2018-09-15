@@ -212,7 +212,7 @@ class MultipleTargets extends React.Component<{
   }
 }
 
-storiesOf('Examples/GoogleMusic', module)
+storiesOf('yubaba/Examples/GoogleMusic', module)
   .add('cross fade move', () => <MultipleTargets />)
   .add('+ expand', () => <MultipleTargets expand />)
   .add('+ shrink', () => <MultipleTargets expand shrink />)

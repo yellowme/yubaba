@@ -48,7 +48,7 @@ const makeStory = (direction: string) => (
   </Toggler>
 );
 
-storiesOf('Animations/Swipe', module)
+storiesOf('yubaba/Animations/Swipe', module)
   .add('up', () => makeStory('up'))
   .add('down', () => makeStory('down'))
   .add('left', () => makeStory('left'))

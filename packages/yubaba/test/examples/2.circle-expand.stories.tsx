@@ -29,7 +29,7 @@ const Container = styled.div`
   min-height: 100vh;
 `;
 
-storiesOf('Animations/CircleExpand', module)
+storiesOf('yubaba/Animations/CircleExpand', module)
   .add('from square', () => (
     <Toggler>
       {({ shown, toggle }) => (

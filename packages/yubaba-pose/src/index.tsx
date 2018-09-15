@@ -1,1 +1,1 @@
-console.log('hello world!');
+export { default as PoseMove } from './PoseMove';

@@ -37,7 +37,7 @@ const Noop: React.StatelessComponent<CollectorChildrenProps & { duration: number
   </Collector>
 );
 
-storiesOf('Examples/Manager', module)
+storiesOf('yubaba/Examples/Manager', module)
   .add('with no manager', () => (
     <Toggler>
       {({ shown, toggle }) => (

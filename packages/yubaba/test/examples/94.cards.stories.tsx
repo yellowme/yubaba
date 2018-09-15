@@ -208,7 +208,7 @@ const cards = [
   },
 ];
 
-storiesOf('Examples/Cards', module).add('cross fade move', () => (
+storiesOf('yubaba/Examples/Cards', module).add('cross fade move', () => (
   <Toggler>
     {({ shown, toggle, set }) => (
       <Container>

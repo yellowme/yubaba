@@ -37,7 +37,7 @@ const Padding = styled.div`
   flex-shrink: 0;
 `;
 
-storiesOf('Animations/CircleShrink', module)
+storiesOf('yubaba/Animations/CircleShrink', module)
   .add('to square', () => (
     <Toggler>
       {({ shown, toggle }) => (

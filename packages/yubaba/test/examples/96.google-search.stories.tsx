@@ -67,7 +67,7 @@ const FixedSearchBar = styled.div`
   background: white;
 `;
 
-storiesOf('Examples/FloatingSearchBar', module).add('cross fade move', () => (
+storiesOf('yubaba/Examples/FloatingSearchBar', module).add('cross fade move', () => (
   <Toggler>
     {({ shown, toggle }) => (
       <Container>
